@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.picker-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#picker {
+    cursor: pointer;
+}
+
+.copy {
+    cursor: pointer;
+}
+
+.copiedText {
+    font-size: 18px;
+    text-transform: none;
+    margin: 5px 0px 0px 100px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgba(154, 157, 160, 0.788);
+    color: rgb(41, 48, 54);
+    display: none;
+}
+
+
